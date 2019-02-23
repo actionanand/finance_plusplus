@@ -1,0 +1,10 @@
+/*@import "bootstrap-sprockets";*/
+/*@import "bootstrap";*/
+
+.result-block{
+  display: inline-block;
+}
+
+.no-padding{
+  padding: 0!important;
+}

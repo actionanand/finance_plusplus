@@ -1,6 +1,6 @@
 <div class="navbar navbar-default navbar-static-top">
   <div class="container">
-    <%= link_to "Finance++", root_path, class: "navbar-brand" %>
+    <%= link_to "Photo Finance++", root_path, class: "navbar-brand" %>
     <%if current_user %>
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
         <span class="icon-bar"></span>
@@ -29,7 +29,7 @@
             <i class="fa fa-user"></i>
             <strong>Hi, Guest</strong>
           </li>
-          <li class="col-md-4 logout"><%= link_to "Sign up", new_user_registration_path, 
+          <li class="col-md-4 logout"><%= link_to "Sign in", new_user_session_path, 
           class: "btn btn-xs btn-signup btn-success" %></li>
         </ul>
       </div>

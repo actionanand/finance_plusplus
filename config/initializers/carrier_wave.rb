@@ -1,8 +1,6 @@
 if Rails.env.production?
 
   CarrierWave.configure do |config|
-    
-    config.fog_provider = 'fog/aws'
   
     config.fog_credentials = {
     
@@ -14,7 +12,7 @@ if Rails.env.production?
       
       :region =>	'us-east-1',
       
-      :path_style => true
+      #:path_style => true
       
     }
     

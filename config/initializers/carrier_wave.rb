@@ -12,7 +12,7 @@ if Rails.env.production?
       
       :region =>	'us-east-1',
       
-      #:path_style => true
+      :path_style => true
       
     }
     
